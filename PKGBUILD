@@ -1,11 +1,12 @@
-# Maintainer: Derek Taylor (DistroTube) <derek@distrotube.com>
-pkgname=dmscripts-git
-_pkgname=dmscripts
-pkgver=1.0.r230.ccf2685
+# Maintainer: nidusOS
+# Fork From: Derek Taylor (DistroTube) <derek@distrotube.com>
+pkgname=nidus-dmenu-config
+_pkgname=nidus-dmenu-config
+pkgver=1.0.r1.478ec33
 pkgrel=1
 pkgdesc="A collection of dmenu scripts"
 arch=('any')
-url="https://gitlab.com/dwt1/dmscripts.git"
+url="https://github.com/nidusos/nidus-dmenu-config.git"
 license=('GPL3')
 depends=(dmenu ffmpeg findutils xclip xdotool xorg-xrandr bind jq)
 groups=()
@@ -26,8 +27,8 @@ optdepends=(
   'udisks2: used by dm-usbmount'
   'wl-clipboard: wayland alternative to xclip'
   )
-provides=(dmscripts)
-conflicts=(dmscripts)
+provides=(nidus-dmenu-config)
+conflicts=(nidus-dmenu-config dmscripts)
 replaces=()
 backup=()
 options=()
