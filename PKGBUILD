@@ -2,7 +2,7 @@
 # Fork From: Derek Taylor (DistroTube) <derek@distrotube.com>
 pkgname=nidus-dmenu-config
 _pkgname=nidus-dmenu-config
-pkgver=1.0.r1.478ec33
+pkgver=1.0.r2.7c10f0f
 pkgrel=1
 pkgdesc="A collection of dmenu scripts"
 arch=('any')
